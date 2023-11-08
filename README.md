@@ -274,6 +274,39 @@ about all the components we're using so far in the app!
 There are three tests to pass in this lesson. They are all related to the
 content within `src/components/App.js`.
 
+$ npm install
+```
+
+This will get and install all the required dependencies for React.
+
+Next, we need to start up a server for the app to run on:
+
+```console
+$ npm start
+```
+
+This will host the app and open a browser window to display it. If the server
+started correctly but the browser doesn't open, you can use the links that
+appear in the terminal to access the app. They should look something like this:
+
+```console
+Local:            http://localhost:3000
+On Your Network:  http://192.168.1.5:3000
+```
+
+You can use the `Local` link to open the app in your own browser. The second is
+for any _other_ computers on your network that you want to access your app from
+(this is particularly useful if you want to test out your app in a mobile
+browser on your phone).
+
+If everything has worked correctly, you should see a page with the exact time it
+was loaded, along with a small amount of text and a GIF.
+
+If we make any changes to our app while the server is running, it will 'hot
+reload,' and update the app in the browser. If there are app-breaking errors in
+your code, the browser will display those errors instead.
+
+We'll start by exploring the JavaScript code for this sample app in the `src`
 1. Replace the contents of the `h1` element so that, instead of a time, it just
    says 'Now'
 2. If you added a second `<ExampleComponent />`, be sure to remove it
