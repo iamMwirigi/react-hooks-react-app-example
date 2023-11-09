@@ -310,7 +310,7 @@ We'll start by exploring the JavaScript code for this sample app in the `src`
 1. Replace the contents of the `h1` element so that, instead of a time, it just
    says 'Now'
 2. If you added a second `<ExampleComponent />`, be sure to remove it
-3. Add in a _new_ component, `<TestComponent />`, just below
+3. Add in a _new_ component,  , just below
    `<ExampleComponent />`, in the `App.js` file (remember: you will need to
    **import** the component before you can use it)
 
